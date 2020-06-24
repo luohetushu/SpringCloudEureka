@@ -1,0 +1,7 @@
+错误一：ClasspathLoggingApplicationListener - Application failed to start with classpath: unknown
+      原因：可能是 application.properties 配置出错了
+
+错误二：org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+      原因：设置的 server.port 端口的原因，使得 spring-boot-starter-web 内启动 tomcat 失败
+
+
